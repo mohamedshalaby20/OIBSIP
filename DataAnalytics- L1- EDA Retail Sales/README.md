@@ -35,7 +35,7 @@ Task: EDA Retail Sales (Task 1)
 - Created the monthly sales plot with axes[0] and color blue
 - Created the quarterly sales plot with axes[1] and color green
 - Used (plt.tight_layout()) to automatically adjust the padding and spacing between subplots
-- Used (ptt.show()) to display the charts when running the code   
+- Used (plt.show()) to display the charts when running the code   
 
 
                                                           ******* Part 2 *******
