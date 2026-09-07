@@ -3,21 +3,21 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-from matplotlib.pyplot import title
+
 
 #Uploading dataset
 df=pd.read_csv('retail_sales_dataset.csv')
 
 ###### 1.Initial Inspection ######
 
-#print(df.head(10))
-#print(df.dtypes)
-#print(df.isna().sum())
+print(df.head(10))
+print(df.dtypes)
+print(df.isna().sum())
 
 
 ###### 2.Descriptive Analysis ######
 
-#print(df.describe())
+print(df.describe())
 
 ###### 3.Time series analysis ######
 
