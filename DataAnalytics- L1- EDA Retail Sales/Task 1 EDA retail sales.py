@@ -119,7 +119,13 @@ plt.show()
 
 df_sorted = df.sort_values(by=['Age Group', 'Gender'])
 plt.figure(figsize=(12,6))
-sns.barplot(x='Age Group', y='Total Amount', hue='Product Category', data=df_sorted, palette='tab20')
+sns.barplot(
+    x='Age Group',
+    y='Total Amount',
+    hue='Product Category',
+    data=df_sorted,
+    palette='tab20')
+
 plt.xlabel('Age')
 plt.ylabel('Total Amount')
 plt.title('Relationship between Age and Total Amount by Gender')
