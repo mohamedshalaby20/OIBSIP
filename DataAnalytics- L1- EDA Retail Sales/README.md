@@ -56,7 +56,7 @@ Task: EDA Retail Sales (Task 1)
 - Adding a heatmap with values inside each cell, approximated to 2 decimals, with a scale from -1 to 1
 
 
-/// Line 120-127
+/// Line 120-133
 - Added a bar chart displaying the relation between age and total amount by gender
 - Increased the fig size displaying the chart in a better way
 - Used this chart to view the category that generated most revenue by age and gender
