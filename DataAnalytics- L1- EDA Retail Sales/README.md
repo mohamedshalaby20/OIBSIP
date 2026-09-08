@@ -4,7 +4,6 @@ Task: EDA Retail Sales (Task 1)
 
                            **** Note the use of the function print is for the function to work as I am using Pycharm ****
 
-                                                            ******* Part 1 *******
 
 /// Lines 1-5: 
 - Importing packages which will be used in our analysis process such as (pandas, Matplotlib and seaborn)
@@ -39,7 +38,30 @@ Task: EDA Retail Sales (Task 1)
 - Used (plt.show()) to display the charts when running the code   
 
 
-                                                          ******* Part 2 *******
+/// Line 63-80 
+- Added a bar chart displaying customer age groups and gender breakdowns
+- Created bins displaying age groups
+- Used the Countplot() to count the customer by age and gender
+- Added a for loop function to display the count of customers as labels
+  
+
+/// Line 81-96
+- Added a bar chart displaying product analysis by getting the relation between product and revenue
+- Added a for loop function displaying the total revenue for each product
+
+
+/// Line 99-118
+- Added a heatmap displaying correlation between numeric values
+- Created a filtered column displaying only numeric values and used function corr() to calculate the correlation coefficients between all pairs
+- Adding a heatmap with values inside each cell, approximated to 2 decimals, with a scale from -1 to 1
+
+
+/// Line 120-127
+- Added a bar chart displaying the relation between age and total amount by gender
+- Increased the fig size displaying the chart in a better way
+- Used this chart to view the category that generated most revenue by age and gender
+
+                                                        
 
 
 
