@@ -23,6 +23,7 @@ Task: EDA Retail Sales (Task 1)
 
 /// Line 18-20
 - Adding the descriptive analysis
+- Changed the Transaction ID column into string as it contains unique values 
 - Used the (df.describe()) to add a table displaying the mean ,median, mode and standard deviation of each numeric table
 
 
