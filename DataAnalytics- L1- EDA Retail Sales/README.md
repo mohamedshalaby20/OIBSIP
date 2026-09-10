@@ -2,7 +2,7 @@ Name: Mohamed Shalaby
 
 Task: EDA Retail Sales (Task 1)
 
-                           **** Note the use of the function print is for the function to work as I am using Pycharm ****
+                           **** Note the use of the function print is for the function to work as I am using Visual Studio ****
 
 
 /// Lines 1-5: 
